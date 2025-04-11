@@ -49,8 +49,7 @@ class Auth(BaseHandler):
 
         elif not OpenIDCookieHandlerMixin.get_current_user(self):
             logging.warning('Not authenticated')
-            self.redirect(f'/oauth2/start?redirect={url_escape(path if path else '/')}')
-            return
+            raise HTTPError(401, 'not authorized')
 
         self.set_status(204)
 
