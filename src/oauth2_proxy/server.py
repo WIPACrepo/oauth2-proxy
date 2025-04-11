@@ -2,7 +2,6 @@ import logging
 import os
 import re
 
-from tornado.escape import url_escape
 from tornado.web import RequestHandler, HTTPError
 from rest_tools.server import (
     OpenIDLoginHandler,
