@@ -2,6 +2,15 @@
 
 
 
+## v0.0.2 (2025-04-11)
+
+###  
+
+* fix flake8 ([`4da3418`](https://github.com/WIPACrepo/oauth2-proxy/commit/4da3418309b5595ad4124f78ae40ff08518ffdcc))
+
+* only return 204 or 401, not a redirect ([`7e69486`](https://github.com/WIPACrepo/oauth2-proxy/commit/7e69486dd91570a4f8ec30754212ef8200dea462))
+
+
 ## v0.0.1 (2025-04-11)
 
 ###  
